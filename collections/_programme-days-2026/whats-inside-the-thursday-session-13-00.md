@@ -14,27 +14,27 @@ title: "What's inside the black box? Compiler developments for HPC"
 
 
 
-#FACILITATOR
+#LEADS
 # Comma-separated list of the leads of the session
 lead: "Pawel Radtke"
-# Leads photos (must match order of names above). 
+# Leads' photos (must match order of names above). 
 lead_photos:
   - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
-# Leads profile links (must match order of names above)
+# Leads' profile links (must match order of names above)
 lead_links:
   - ""
 
 
-#SPEAKERS
-# Comma-separated list of the speakers of the session
+#Contributos
+# Comma-separated list of the contributors of the session
 contributor: "Sven-Bodo Sholz, Nick Brown, Maurice Jamieson, Shounak Chakraborty"
-# Speakers photos (must match order of names above). 
+# Contributors'photos (must match order of names above). 
 contributor_photos:
  - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
  - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
  - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
  - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
-# Speakers profile links (must match order of names above)
+# Contributors' profile links (must match order of names above)
 contributor_links:
   - ""
 
