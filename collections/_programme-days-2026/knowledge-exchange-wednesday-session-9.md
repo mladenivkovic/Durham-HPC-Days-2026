@@ -15,12 +15,12 @@ title: "Knowledge Exchange in the DRI Community"
 
 
 #FACILITATOR
-# Comma-separated list of the leads of the session
+# Comma-separated list of the facilitator of the session
 facilitator: "Marion Weinzierl"
-# Leads photos (must match order of names above). 
+# facilitator photos (must match order of names above). 
 facilitator_photos:
   - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
-# Leads profile links (must match order of names above)
+# facilitator profile links (must match order of names above)
 facilitator_links:
   - ""
 
@@ -52,7 +52,7 @@ speaker_links:
 
 # ------------------------------------------------
 # AFFILIATION / DELIVERY INFORMATION
-# Please complete ONLY ONE of the sections below when applicable.:
+# Please complete ONLY ONE of the sections below when applicable:
 
 
 # Use "institution" when listing the primary institutional
