@@ -85,7 +85,7 @@ institution_link: ""
 # Comma-separated list of organisers
 organiser: "Durham University Advanced Research Computing, SocRSE Policy & Funding Working Group, RSE Leaders Network"
 # Organisers logo
-organiser_logo: "assets/images/rse-leaders/rse-society.png"
+organiser_logo: "ssets/images/rse-leaders/rse-society.png"
 # Organisers website link
 organiser_link: "https://lu.ma/0w6u5u47"
 
