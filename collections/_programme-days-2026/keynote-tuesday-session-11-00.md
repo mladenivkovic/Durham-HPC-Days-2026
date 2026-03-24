@@ -9,11 +9,11 @@ lead_links: "https://www.alicegabriel.com/"
 
 
 
-day: "Monday"
+day: "Tuesday"
 track: "A"
 
-start_time: "15:00"
-end_time: "16:30"
+start_time: "11:00"
+end_time: "12:00"
 
   
 institution: "SCRIPPS"

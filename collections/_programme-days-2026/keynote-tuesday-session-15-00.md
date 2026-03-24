@@ -1,19 +1,19 @@
 ---
-title: "Keynote"
+title: "Why are High Performance Computing Systems still based on 1980’s Architectures?"
 
 
-lead: "Alice-Agnes Gabriel"
+lead: "John McCalpi"
 lead_photos:
-  - "https://shareing-dri.github.io/assets/profilepics/generic.jpg"
-lead_links: "https://www.alicegabriel.com/"
+  - ""
+lead_links: ""
 
 
 
 day: "Tuesday"
 track: "A"
 
-start_time: "11:00"
-end_time: "12:00"
+start_time: "15:00"
+end_time: "16:00"
 
   
 institution: "SCRIPPS"
@@ -24,5 +24,5 @@ institution_link: "https://scripps.ucsd.edu/"
 room: "Mountjoy Centre"
 layout: keynote
 category: "keynote"
-description: "TBD"
+description: ""
 ---
