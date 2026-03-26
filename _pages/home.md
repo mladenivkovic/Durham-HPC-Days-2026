@@ -266,6 +266,65 @@ t {
 
 
 
+.sponsors-strip {
+  padding: 1rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.sponsors-container {
+  max-width: 1100px;
+}
+
+.sponsors-strip h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #68246D;
+  font-weight: 600;
+}
+
+/* Grid */
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Logo card */
+.sponsor-logo {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+
+  aspect-ratio: 1 / 1;         
+  width: 100%;
+
+  display: flex;               
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+
+  transition: all 0.25s ease;
+}
+
+.sponsor-logo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+/* Logo image */
+.sponsor-logo img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+
+  opacity: 0.85;
+  transition: all 0.25s ease;
+}
+
+
+
 @media (max-width: 900px) {
 
   .dual-cards {
@@ -337,7 +396,7 @@ t {
 
 
 <section id="about" class="fade-in">
-  <h2> Registration closes on 20 April</h2>
+  <h2> 📝 Registration closes on 20 April</h2>
  
 </section>
 
@@ -347,7 +406,6 @@ t {
 
 
   <section class="call-for-submissions">
-    <h2>📝 Registration   </h2>
     <div class="deadline-box">
       Register now to attend Durham HPC Days 2026
     </div>
@@ -359,6 +417,34 @@ t {
   
   
 </div>
+
+
+
+<section id="programme" class="fade-in">
+  <h2>🗓️ Explore the Programme</h2>
+  <t style="max-width: 700px; margin: 0 auto 2rem;">
+    Discover the full schedule of keynotes, technical sessions, and social events for the upcoming conference.
+    Check the programme to plan your participation and make the most of your experience at Durham HPC Days.<br>
+  </t><br>
+  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-hpcdays-2026/" class="btn btn-purple">Full programme coming up soon</a>
+</section>
+
+
+
+
+
+
+<div class="header-image"></div>
+
+<section id="gallery" class="fade-in">
+  <h2>📸 Gallery</h2>
+  <div class="image-grid">
+    <img src="assets/images/Sessions.jpg" alt="Sessions">
+    <img src="assets/images/food-truck.jpg" alt="Food truck">
+    <img src="assets/images/social.png" alt="social">
+  </div>
+</section>
+
 
 <div class="hero">
   <div class="hero-inner">
@@ -377,34 +463,70 @@ t {
 </div>
 
 
-<div class="header-image"></div>
 
-<section id="gallery" class="fade-in">
-  <h2>📸 Gallery</h2>
-  <div class="image-grid">
-    <img src="assets/images/Sessions.jpg" alt="Sessions">
-    <img src="assets/images/food-truck.jpg" alt="Food truck">
-    <img src="assets/images/social.png" alt="social">
-  </div>
-</section>
 
-<section id="programme" class="fade-in">
-  <h2>🗓️ Explore the Programme</h2>
-  <t style="max-width: 700px; margin: 0 auto 2rem;">
-    Discover the full schedule of keynotes, technical sessions, and social events for the upcoming conference.
-    Check the programme to plan your participation and make the most of your experience at Durham HPC Days.<br>
-  </t><br>
-  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-hpcdays-2026/" class="btn btn-purple">Full programme coming up soon</a>
-</section>
 
 <section id="sponsors" class="fade-in">
-<h2>Sponsors</h2>
+<h2>🚀 Our Sponsors</h2>
   <t style="max-width: 700px; margin: 0 auto 2rem;">
-    <img src="assets/images/HPCDaysSponsors.png" alt="HPC Days sponsors"/>
-    <br/>
-    <img src="assets/images/HPCDaysSponsors.gif" alt="HPC Days sponsors"/>
+  
+  
+      <div class="sponsors-grid">
+
+      <!-- Sponsor -->
+      <a href="https://www.ddn.com" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://www.ddn.com/wp-content/uploads/2024/09/ddn-logo-dark-horizontal-rgb.jpg" alt="ddn">
+      </div>
+      </a>
+      
+      
+      
+<a href="https://ocf.co.uk/" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://ocf.co.uk/images/logoblue.png" alt="OCF">
+      </div>
+       </a>
+      
+      
+      
+      
+<a href="https://eu.fsastech.com/eu/" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFz2Hw6LVRJlg/company-logo_200_200/B4DZWPBwyvHYAI-/0/1741861359139?e=2147483647&v=beta&t=sLukj4LFeyoCCButXJ0ICGVDUN3dEz_FDbeicBq3pNM" alt="Fsas Technologies">
+      </div>
+      </a>
+      
+      
+ <a href="https://www.novatech.co.uk/" target="_blank" rel="noopener noreferrer">     
+      <div class="sponsor-logo">
+        <img src="https://media.licdn.com/dms/image/v2/D4E0BAQERb5GeBVwP7g/company-logo_200_200/company-logo_200_200/0/1688369383296/novatech_logo?e=2147483647&v=beta&t=DlfqUR3v9c8B9qftCRLVBJ4nlTTSYiolK0OFNqu5Fw8" alt="novatech">
+      </div>
+      </a>
+
+      <!-- Add more as needed -->
+
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   </t>
-</section
+</section>
+
+
+
+
+
+
+
+
 
 <script>
 (function() {
