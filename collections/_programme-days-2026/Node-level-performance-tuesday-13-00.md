@@ -18,8 +18,8 @@ instructor: "Georg Hager, Thomas Gruber"
 
 # INSTRUCTORS photos (must match order of names above). 
 instructor_photos:
-  - "assets/images/generic.jpg"
-  - "assets/images/generic.jpg"
+  - "https://hpc.fau.de/files/2023/08/georg-hager-240x320.png"
+  - "https://hpc.fau.de/files/2021/03/thomas-gruber_2020.jpg"
   
 # Instructor profile links (must match order of names above)
 instructor_links:
