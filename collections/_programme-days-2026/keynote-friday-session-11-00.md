@@ -2,10 +2,11 @@
 title: "TBD"
 
 
-lead: "TBD"
+lead: "Timo Betcke"
 lead_photos:
   - ""
 lead_links: ""
+
 
 
 
@@ -16,8 +17,9 @@ start_time: "11:00"
 end_time: "12:00"
 
   
-institution: ""
-institution_logo: ""
+
+institutions: ""
+institutions_logo: ""
 institution_link: ""
 
 
@@ -25,4 +27,6 @@ room: "MCS0001"
 layout: keynote
 category: "keynote"
 description: ""
+
+bio: ""
 ---
