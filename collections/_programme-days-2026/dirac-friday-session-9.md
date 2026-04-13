@@ -16,7 +16,7 @@ title: "Building Community"
 
 #FACILITATOR
 # Comma-separated list of the leads of the session
-facilitator: "Simon Hands (Community Development Director DiRAC)"
+facilitator: "Simon Hands"
 # Leads photos (must match order of names above). 
 facilitator_photos:
   - "https://github.com/user-attachments/assets/607c5dd9-d266-4c78-b885-3c046c436e31"

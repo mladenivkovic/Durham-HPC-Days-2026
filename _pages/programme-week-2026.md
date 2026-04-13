@@ -128,38 +128,52 @@ classes: [full-programme]
 
       {% for s in cell_sessions %}
       <div class="session-card {{ s.category | downcase }}">
-        <h3>
-          <a href="{{ s.url | relative_url }}">
-            {{ s.title }}
-          </a>
-        </h3>
+    <div class="session-header">
+  <h3 class="session-title">
+    <a href="{{ s.url | relative_url }}">
+      {{ s.title }}
+    </a>
+  </h3>
 
-                {% if s.lead or s.instructor or s.facilitator %}
-                <p class="speaker">
+  {% if s.lead or s.instructor or s.facilitator or s.room %}
+  <div class="session-meta">
+  
+     {% if s.room %}
+      <div class="meta-line room">
+        <span class="meta-label">Room: {{ s.room }}</span>
+      </div>
+    {% endif %}
 
-                  {% if s.lead %}
-                    <strong>Lead{% if s.lead contains "," %}s{% endif %}:</strong>
-                    {{ s.lead }}
-                  {% endif %}
+   {% if s.lead %}
+      <div class="meta-line speaker">
+        <span class="meta-label">Lead:</span>
+        <span class="meta-value">{{ s.lead }}</span>
+      </div>
+    {% endif %}
 
-                  {% if s.lead and s.instructor %} · {% endif %}
+    {% if s.instructor %}
+      <div class="meta-line speaker">
+        <span class="meta-label">Instructor:</span>
+        <span class="meta-value">{{ s.instructor }}</span>
+      </div>
+    {% endif %}
 
-                  {% if s.instructor %}
-                    <strong>Instructor{% if s.instructor contains "," %}s{% endif %}:</strong>
-                    {{ s.instructor }}
-                  {% endif %}
+    {% if s.facilitator %}
+      <div class="meta-line speaker">
+        <span class="meta-label">Facilitator:</span>
+        <span class="meta-value">{{ s.facilitator }}</span>
+      </div>
+    {% endif %}
 
-                  {% if s.facilitator %}
-                    <strong>Facilitator{% if s.facilitator contains "," %}s{% endif %}:</strong>
-                    {{ s.facilitator }}
-                  {% endif %}
+ 
 
-                </p>
-                {% endif %}
-
-                {% if s.room %}
-                  <p class="room">Room: {{ s.room }}</p>
-                {% endif %}
+  </div>
+  {% endif %}
+</div>
+                
+                
+                
+                
               </div>
               {% endfor %}
 
@@ -209,6 +223,59 @@ classes: [full-programme]
   display: grid;
   gap: 0.5rem;
 }
+
+
+.session-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.session-title {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.session-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.meta-line {
+  display: flex;
+  gap: 0.2rem;
+  align-items: baseline;
+  font-size: 0.6rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.meta-label {
+  font-weight: 600;
+  flex-shrink: 0; 
+}
+
+.meta-value {
+  color: #333;
+  margin: 0;
+}
+
+.room {
+  color: #5f6c7b; !important;
+}
+
+.speaker {
+font-style: italic; 
+font-size: 0.5rem;
+}
+
+.meta-line {
+  display: block;
+}
+
 
 .week-header,
 .week-row {
@@ -350,17 +417,7 @@ classes: [full-programme]
   flex-grow: 0;
 }
 
-.session-card .speaker {
-  font-size: 0.4rem;
-  color: #333;
-  margin: 0;
-}
 
-.session-card .room {
-  font-size: 0.6rem;
-  color: #444;
-  margin: 0;
-}
 
 .week-cell .session-card h3 a {
   color: inherit !important;

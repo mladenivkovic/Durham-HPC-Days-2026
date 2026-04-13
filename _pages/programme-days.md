@@ -208,6 +208,7 @@ classes: [full-programme]
 .session-card .room {
   font-size: 1rem;
   opacity: 0.8;
+    font-weight: 600;
 }
 
 .button-link:hover,
